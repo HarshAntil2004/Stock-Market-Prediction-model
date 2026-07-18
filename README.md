@@ -5,6 +5,27 @@ indicators, trains and compares multiple Machine Learning models plus an LSTM
 deep learning model, and forecasts future prices — with an interactive Streamlit
 web app.
 
+> Built college project. Screenshots below are from the
+> Streamlit dashboard (`app.py`), generated on historical-style price data.
+
+## Screenshots
+
+**Overview tab** — closing price and trading volume
+
+![Overview tab](report/screenshots/1_overview.png)
+
+**Technical indicators tab** — moving averages and RSI
+
+![Technical indicators tab](report/screenshots/2_indicators.png)
+
+**Model training tab** — comparison table and prediction vs actual
+
+![Model training tab](report/screenshots/3_training.png)
+
+**Forecast tab** — future price projection
+
+![Forecast tab](report/screenshots/4_forecast.png)
+
 ## Features
 
 - Automatic historical data download via `yfinance`
@@ -95,6 +116,14 @@ training example is 60 consecutive days, and the label is day 61.
 | RMSE | Square root of MSE, same units as price |
 | R²   | Proportion of variance explained (closer to 1 is better) |
 | MAPE | Average percentage error |
+
+## Notes on Screenshots
+
+The screenshots above were rendered directly from this project's own pipeline
+(`preprocessing.py`, `feature_engineering.py`, `model_training.py`) using
+simulated price data, then laid out to mirror the actual Streamlit tabs in
+`app.py`. Run `streamlit run app.py` yourself with a real symbol (e.g. AAPL)
+to see the live interactive version with real Yahoo Finance data.
 
 ## Known Limitations (worth discussing in your viva/report)
 
