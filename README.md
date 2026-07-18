@@ -12,19 +12,23 @@ web app.
 
 **Overview tab** — closing price and trading volume
 
-![Overview tab](report/screenshots/1_overview.png)
+![Overview tab](<img width="1430" height="910" alt="1_overview" src="https://github.com/user-attachments/assets/01876e24-5a78-4cf7-be2f-a85731d30163" />
+)
 
 **Technical indicators tab** — moving averages and RSI
 
-![Technical indicators tab](report/screenshots/2_indicators.png)
+![Technical indicators tab](<img width="1430" height="1040" alt="2_indicators" src="https://github.com/user-attachments/assets/066c8300-8abc-4108-9ed6-dc89a078af30" />
+)
 
 **Model training tab** — comparison table and prediction vs actual
 
-![Model training tab](report/screenshots/3_training.png)
+![Model training tab](<img width="1430" height="1040" alt="3_training" src="https://github.com/user-attachments/assets/3fe04ef8-fbc2-4d5a-a1fb-a92b00bfb1fa" />
+)
 
 **Forecast tab** — future price projection
 
-![Forecast tab](report/screenshots/4_forecast.png)
+![Forecast tab](<img width="1430" height="910" alt="4_forecast" src="https://github.com/user-attachments/assets/a144634c-7851-4102-b240-473154c37495" />
+)
 
 ## Features
 
